@@ -7,7 +7,7 @@ function handleCategories() {
     const h2 = category.querySelector('h2');
     const elements = category.querySelectorAll('li');
 
-    console.log(`Category: ${h2.innerText}\nElements: ${elements.length}`);
+    console.log(`Category: ${h2.textContent}\nElements: ${elements.length}`);
   });
 }
 

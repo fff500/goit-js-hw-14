@@ -11,7 +11,7 @@ function createIngredientsList(ingredients) {
   const items = ingredients.map((ingredient) => {
     const item = document.createElement('li');
 
-    item.innerHTML = ingredient;
+    item.textContent = ingredient;
     item.classList.add('item');
 
     return item;
